@@ -1,0 +1,63 @@
+:root {
+  --color1: #e0cac7;
+  --color2: #d1c8b0;
+  --color3: #30426e;
+  --color4: #4d749e;
+  --color5: #b5d0ce;
+}
+
+body{
+  background-color: var(--color1);
+  color: var(--color4);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
+}
+
+.background{
+  position: absolute;
+}
+
+.circle1{
+  position: absolute;
+  background-color: var(--color2);
+  width: 100vw;
+  height: 100vw;
+  z-index: -100;
+  border-radius: 100%;
+  left: -20vw;
+  top: -50vw;
+}
+.circle2{
+  position: absolute;
+  background-color: var(--color5);
+  width: 80vw;
+  height: 80vw;
+  z-index: -90;
+  border-radius: 100%;
+  left: -20vw;
+  top: -30vw;
+}
+.circle3{
+  position: absolute;
+  background-color: var(--color2);
+  width: 100vw;
+  height: 100vw;
+  z-index: -80;
+  border-radius: 100%;
+  left: 30vw;
+  top: -200vw;
+}
